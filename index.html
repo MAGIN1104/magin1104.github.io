@@ -1,0 +1,288 @@
+<!-- ORIGINAL NO EDITAR 
+    BY MAGIN LUNA
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Hojas de estilo personalizado -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Font awesome CDN<!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"> -->
+    
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <title>MUSIQUITA</title>
+  </head>
+  <body>
+
+    <div class="container-fluid fondo">
+        <div class="row alto align-items-center justify-content-center text-center text-light">
+            <div class="col-md-8">
+                <h1 class="display-1"> <i class="fas fa-compact-disc fa-spin"></i> </h1>
+                <h3 class="display-4">!Bienvenido!</h3>
+                <p class="lead">Este es nuestor sitio donde encontraras la mejor musica!</p>
+                <hr class="bg-light">
+                <button type="button" class="btn btn-outline-light mt-3 mt-sm-0" data-toggle="modal" data-target="#modal_home">Inicio</button>
+                <button type="button" class="btn btn-outline-light mt-3 mt-sm-0" data-toggle="modal" data-target="#modal_about">Acerca de</button>
+                <button type="button" class="btn btn-outline-light mt-3 mt-sm-0" data-toggle="modal" data-target="#modal_products">Musica</button>
+                <button type="button" class="btn btn-outline-light mt-3 mt-sm-0" data-toggle="modal" data-target="#modal_contacts">Contactos</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL HOME -->
+    <div class="modal fade" id="modal_home" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark text-light">
+            <div class="modal-header">
+                <h5 class="display-4 lead" id="exampleModalLabel">Inicio</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="fa-layers fa-fw">
+                        <i class="fa-inverse fas fa-times" data-fa-transform="shrink-6"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="./img/img3.jpg" alt="Home" class="img-fluid rounded" height="30">
+                <p class="mt-2 lead">Para escuchar musica de Calidad, necesitas unos buenos audifonos para mayor satisfaccion!.</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        </div>
+    </div><!-- MODAL HOME -->
+
+
+
+    
+    <!-- MODAL ABOUT -->
+    <div class="modal fade" id="modal_about" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark text-light">
+            <div class="modal-header">
+            <h5 class="display-4 lead" id="exampleModalLabel">ACERCA DE</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span class="fa-layers fa-fw">
+                    <i class="fa-inverse fas fa-times" data-fa-transform="shrink-6"></i>
+                  </span>
+            </div>
+            <div class="modal-body">
+                <!-- LINEA DE TIEMPO -->
+                <div class="container mt-3 mb-3">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <h4>SOBRE NOSTROS</h4>
+                            <ul class="timeline">
+                                <li>
+                                    <a target="_blank" href="#">El comienzo</a>
+                                    <a href="#" class="float-right">31 DIC 2019</a>
+                                    <p>Todo empezo en un garage, donde un grupo de amigos se reunio y empezaron a escuchar musica.</p>
+                                </li>
+                                <li>
+                                    <a href="#">Desarrollando la pagina </a>
+                                    <a href="#" class="float-right">10 ENE 2020</a>
+                                    <p>La pasion que tenian estos jovenes por la programacion les ayudo para la creacion de este sitio unico e innovador.</p>
+                                </li>
+                                <li>
+                                    <a href="#">Proyecto terminado</a>
+                                    <a href="#" class="float-right">13 JUL 2020</a>
+                                    <p>El proyecto concluyo despues de unos meses, logrando sus objetivos. Estos son el grupo de amigos que tuvo la gran idea:
+                                        <ul>
+                                            <li>Lizeth Miranda</li>
+                                            <li>Magin Luna</li>
+                                            <li>Max Mamani</li>
+                                            <li>Cristian Angulo</li>
+                                            <li>David Zuñagua</li>
+                                        </ul>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- LINEA DE TIEMPO -->
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+            
+
+    <!-- MODAL PRODUCTS -->
+    <div class="modal fade" id="modal_products" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-light">
+            <div class="modal-header">
+            <h5 class="display-4 lead" id="exampleModalLabel">Musica</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span class="fa-layers fa-fw">
+                    <i class="fa-inverse fas fa-times" data-fa-transform="shrink-6"></i>
+                  </span>
+            </div>
+            <div class="modal-body">
+
+                <!-- FILA UNO -->
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="card bg-dark text-light">
+                            <div class="card-header">
+                                <div class="row align-items-center">
+                                    <div class="col-2 col-md-4 col-lg-3">
+                                        <img src="./img/img6.jpg" alt="" width="60px" height="60px" class="rounded-circle border"> 
+                                    </div>
+                                    <div class="col-10 col-md-8 col-lg-9">
+                                        Coldplay - The Scientist 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                              <blockquote class="blockquote mb-0">
+                                <p>Coldplay - The Scientist is taken from the album A Rush of Blood to the Head released in 2002. 
+                                    <iframe width="280" height="157" src="https://www.youtube.com/embed/RB-RcX5DS5A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </p>
+                              </blockquote>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 mt-2 mt-md-0">
+                        <div class="card bg-dark text-light">
+                            <div class="card-header">
+                                <div class="row align-items-center">
+                                    <div class="col-2 col-md-4 col-lg-3">
+                                        <img src="./img/img4.jpg" alt="" width="60px" height="60px" class="rounded-circle border"> 
+                                    </div>
+                                    <div class="col-10 col-md-8 col-lg-9">
+                                        LSelena Gomez - Lose You To Love Me 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                              <blockquote class="blockquote mb-0">
+                                <p>You promised the world and I fell for it 
+                                    I put you first and you adored it
+                                    You set fires to my forest....</p>
+                                <iframe width="280" height="157" src="https://www.youtube.com/embed/zlJDTxahav0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              </blockquote>
+                            </div>
+                          </div>
+                    </div>
+                </div><!-- FILA UNO -->
+
+
+
+                <!-- FILA DOS -->
+                <div class="row mt-md-2">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card bg-dark text-light">
+                        <div class="card-header">
+                            <div class="row align-items-center">
+                                <div class="col-2 col-md-4 col-lg-3">
+                                    <img src="./img/img5.jpg" alt="" width="60px" height="60px" class="rounded-circle border"> 
+                                </div>
+                                <div class="col-10 col-md-8 col-lg-9">
+                                    Marshmello ft. Bastille - Happier 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                            <p>Lately, I've been, I've been thinking
+                                I want you to be happier, I want you to be happier
+                                When the morning comes...</p>
+                            <iframe width="280" height="157" src="https://www.youtube.com/embed/m7Bc3pLyij0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </blockquote>
+                        </div>
+                        </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mt-2 mt-md-0">
+                    <div class="card bg-dark text-light">
+                        <div class="card-header">
+                            <div class="row align-items-center">
+                                <div class="col-2 col-md-4 col-lg-3">
+                                    <img src="./img/img1.jpg" alt="" width="60px" height="60px" class="rounded-circle border"> 
+                                </div>
+                                <div class="col-10 col-md-8 col-lg-9">
+                                    LP - Lost On You 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                            <p class="lead">Oh-oh, oh
+                                Is that lost on you?
+                                Oh-oh
+                                Baby, is that lost on you?
+                                Is that lost on you?
+                            </p>
+                            <iframe width="280" height="157" src="https://www.youtube.com/embed/fD2UExUhq-s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </blockquote>
+                        </div>
+                        </div>
+                </div>
+            </div><!-- FILA DOS -->
+
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        </div>
+    </div><!-- MODAL PRODUCTS -->
+
+
+     <!-- MODAL CONTACT US -->
+     <div class="modal fade" id="modal_contacts" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark text-light">
+            <div class="modal-header">
+                <h5 class="display-4 lead" id="exampleModalLabel">Contactos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="fa-layers fa-fw">
+                        <i class="fa-inverse fas fa-times" data-fa-transform="shrink-6"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                              <label for="recipient-name" class="col-form-label">Email:</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="form-group">
+                              <label for="message-text" class="col-form-label">Message:</label>
+                              <textarea class="form-control" id="message-text" rows="5"></textarea>
+                            </div>
+                            <button class="submit btn btn-success">Enviar</button>
+                          </form>
+                    </div>
+                    <div class="col-md-6 mt-3 mt-md-4">
+                        <img src="./img/img2.jpg" alt="" class="img-fluid rounded mb-2" style="height: 150px; width: 100vh;">
+                        <h5 class="font-weight-light">Phonne: +591 78945612</h5>
+                        <h5 class="font-weight-light">Email: ejemplo@ejemplo.com</h5>
+                        <h5 class="font-weight-light">Ubicacion: calle Nro 123</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        </div>
+    </div><!--CONTACT US -->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
